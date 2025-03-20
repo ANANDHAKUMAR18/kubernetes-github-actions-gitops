@@ -17,7 +17,7 @@ spec:
       - name: ghcr-secret
       containers:
       - name: grade-submission-api
-        image: ghcr.io/anandhakumarg18/kubernetes-github-actions-cicd:ee2b0802a4a9e230f762127fc4cc7b9fb8582d4b
+        image: ghcr.io/anandhakumarg18/kubernetes-github-actions-cicd:dbaf5e21fb4cefbe462109763db0d8f61c1b8e3b
         ports:
         - containerPort: 3000
         resources:
